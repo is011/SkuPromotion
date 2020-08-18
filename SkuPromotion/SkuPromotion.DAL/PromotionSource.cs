@@ -7,7 +7,7 @@ namespace SkuPromotion.DAL
     /// <summary>
     /// Promotion logic to fetch and get data instead of database
     /// </summary>
-    class PromotionSource : IPromotionSource
+    public class PromotionSource : IPromotionSource
     {
         static List<Promotion> Promotions;
         ISkuSource _skuLogic;

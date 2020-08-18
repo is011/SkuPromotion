@@ -7,7 +7,7 @@ namespace SkuPromotion.DAL
     /// <summary>
     /// Contract sku logic to fetch and get skus
     /// </summary>
-    interface ISkuSource
+    public interface ISkuSource
     {
         // <summary>
         /// Proxy sku will fetch data instead of database
