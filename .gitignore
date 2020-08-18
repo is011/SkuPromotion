@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/SkuPromotion/.vs/SkuPromotion/v16
+/SkuPromotion/SkuPromotion.UnitTest/obj
+/.vs
+/SkuPromotion/SkuPromotion.UnitTest/bin/Debug/netcoreapp3.1
