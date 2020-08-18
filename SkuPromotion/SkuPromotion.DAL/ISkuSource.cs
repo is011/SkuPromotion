@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SkuPromotion.DAL
 {
-    interface ISkuPromotionSource
+    interface ISkuSource
     {
     }
 }

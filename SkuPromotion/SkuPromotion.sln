@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkuPromotion.DAL", "SkuProm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkuPromotion.BusinessLogic", "SkuPromotion.BusinessLogic\SkuPromotion.BusinessLogic.csproj", "{6DA65817-4456-4AAD-BD9E-112792F140C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkuPromotion.DataModel", "SkuPromotion.DataModel\SkuPromotion.DataModel.csproj", "{307CA776-6EAE-49A1-A03E-7AFE9831763F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6DA65817-4456-4AAD-BD9E-112792F140C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DA65817-4456-4AAD-BD9E-112792F140C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DA65817-4456-4AAD-BD9E-112792F140C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{307CA776-6EAE-49A1-A03E-7AFE9831763F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307CA776-6EAE-49A1-A03E-7AFE9831763F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307CA776-6EAE-49A1-A03E-7AFE9831763F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307CA776-6EAE-49A1-A03E-7AFE9831763F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
