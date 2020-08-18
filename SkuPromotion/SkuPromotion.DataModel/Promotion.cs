@@ -1,18 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace SkuPromotion.DataModel
 {
     /// <summary>
     /// Promotion entity transfer data for promotions like Jumbo or Combo
     /// </summary>
-    class Promotion
+    public class Promotion
     {
+        /// <summary>
+        /// Identification of offer or promotion
+        /// </summary>
+        public string ID { get; set; }
         /// <summary>
         /// List of SKU information one promotion handles
         /// </summary>
-        List<Sku> SKUs { get; set; }
+        public List<Sku> SKUs { get; set; }
         /// <summary>
         /// Initializing list of SKUs in constructor itself
         /// </summary>

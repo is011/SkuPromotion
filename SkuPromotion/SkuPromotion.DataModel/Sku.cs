@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SkuPromotion.DataModel
+﻿namespace SkuPromotion.DataModel
 {
     /// <summary>
     /// SKU entity is going to use for transfer information about each SKU in cart
