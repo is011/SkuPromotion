@@ -111,7 +111,7 @@ namespace SkuPromotion.BusinessLogic
                     int withoutPromoCount = selectedSKUCount % promoQunatity;
                     if (promoApplicableCount > 0)
                     {
-                        total += (promoApplicableCount * objPromotion.DiscountInPercent) + (withoutPromoCount * objPromotion.SKUs[0].Price);
+                        total += (promoApplicableCount * objPromotion.FixedPrice) + (withoutPromoCount * objPromotion.SKUs[0].Price);
                     }
                 }
                 else
