@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using SkuPromotion.DataModel;
 
 namespace SkuPromotion.BusinessLogic
 {
-    interface ISkuLogic
+    
+    public interface ISkuLogic
     {
+        void FethSKU();
+        Sku GetSKU(char SkuID);
     }
 }
