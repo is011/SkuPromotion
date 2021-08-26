@@ -1,2 +1,2 @@
 # SkuPromotion
-Creating SKU promotions
+Creating SKU promotions for learning and demo purpose only
